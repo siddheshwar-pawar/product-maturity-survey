@@ -1,0 +1,130 @@
+{
+  "pages": [
+    {
+      "name": "page0",
+      "elements": [
+        {
+          "type": "text",
+          "name": "projectName",
+          "title": "Enter the name of your project:",
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "surveyTakerName",
+          "title": "Enter your name:",
+          "isRequired": true
+        },
+        {
+          "type": "radiogroup",
+          "name": "projectDuration",
+          "title": "How long has your project been ongoing?",
+          "isRequired": true,
+          "choices": [
+            "Less than 6 months",
+            "6 months to 1 year",
+            "1 to 2 years",
+            "More than 2 years"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "teamSize",
+          "title": "What is the size of your project team?",
+          "isRequired": true,
+          "choices": [
+            "1-5 members",
+            "6-10 members",
+            "11-20 members",
+            "More than 20 members"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "q1",
+          "title": "How often does your team hold daily stand-up meetings?",
+          "isRequired": true,
+          "choices": [
+            "Daily",
+            "2-3 times per week",
+            "Once a week",
+            "Rarely or never"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q2",
+          "title": "How do you prioritize tasks in your project?",
+          "isRequired": true,
+          "choices": [
+            "Based on customer feedback",
+            "Based on business value",
+            "Based on team consensus",
+            "Based on project manager's direction"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q3",
+          "title": "How frequently does your team deliver working software?",
+          "isRequired": true,
+          "choices": [
+            "Every sprint",
+            "Every 2-3 sprints",
+            "Rarely or never",
+            "Only at project completion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "q4",
+          "title": "How does your team handle changes in project requirements?",
+          "isRequired": true,
+          "choices": [
+            "Embrace changes throughout the project",
+            "Handle changes only at the beginning",
+            "Handle changes only at the end",
+            "Avoid changes whenever possible"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q5",
+          "title": "How frequently do you conduct retrospectives?",
+          "isRequired": true,
+          "choices": [
+            "After every sprint",
+            "Every 2-3 sprints",
+            "Rarely or never",
+            "Only at project completion"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q6",
+          "title": "How involved are stakeholders in your project?",
+          "isRequired": true,
+          "choices": [
+            "Highly involved and engaged",
+            "Moderately involved",
+            "Minimally involved",
+            "Not involved at all"
+          ]
+        }
+      ]
+    }
+  ],
+  "showProgressBar": "bottom",
+  "showQuestionNumbers": "on",
+  "completedHtml": "<h4>Thank you for completing the survey!</h4>"
+}
