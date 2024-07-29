@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page0",
+      "elements": [
+        {
+          "type": "text",
+          "name": "projectName",
+          "title": "Enter the name of your project:",
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "surveyTakerName",
+          "title": "Enter your name:",
+          "isRequired": true
+        },
+        {
+          "type": "radiogroup",
+          "name": "projectDuration",
+          "title": "How long has your project been ongoing?",
+          "isRequired": true,
+          "choices": [
+            "Less than 6 months",
+            "6 months to 1 year",
+            "1 to 2 years",
+            "More than 2 years"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "teamSize",
+          "title": "What is the size of your project team?",
+          "isRequired": true,
+          "choices": [
+            "1-5 members",
+            "6-10 members",
+            "11-20 members",
+            "More than 20 members"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "q1",
+          "title": "How is the Innovation Culture & Structure in the project?",
+          "isRequired": true,
+          "choices": [
+            "Team is able to demonstrate new Features categorized as  Innovation Type",
+            "Team is allowed  to & Identify regularly & Execute Prototyping & MVP Development iteratively",
+            "Team understand Innovation lifecycle but yet not demonstrated as practice",
+            "Innovation Management Tool is adopted by team",
+            "Team has only basic knowledge on Innovation lifecycle  "
+          ]
+        }
+      ]
+    }
+  ],
+  "showProgressBar": "bottom",
+  "showQuestionNumbers": "on",
+  "completedHtml": "<h4>Thank you for completing the survey!</h4>"
+}

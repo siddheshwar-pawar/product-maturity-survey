@@ -1,0 +1,175 @@
+{
+  "pages": [
+    {
+      "name": "page0",
+      "elements": [
+        {
+          "type": "text",
+          "name": "projectName",
+          "title": "Enter the name of your project:",
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "surveyTakerName",
+          "title": "Enter your name:",
+          "isRequired": true
+        },
+        {
+          "type": "radiogroup",
+          "name": "projectDuration",
+          "title": "How long has your project been ongoing?",
+          "isRequired": true,
+          "choices": [
+            "Less than 6 months",
+            "6 months to 1 year",
+            "1 to 2 years",
+            "More than 2 years"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "teamSize",
+          "title": "What is the size of your project team?",
+          "isRequired": true,
+          "choices": [
+            "1-5 members",
+            "6-10 members",
+            "11-20 members",
+            "More than 20 members"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "q1 ",
+          "title": "How often do Agile Events take place?",
+          "isRequired": true,
+          "choices": [
+            "All agile ceremonies are identified and  followed regularly with a defined Cadence in Calendar for next 3 months",
+            "All agile Events are identified ,  followed regularly & recorded in Jira /relevant tool",
+            "All agile Events are identified and  followed regularly in a cadence",
+            "Basic Project level meetings are being followed",
+            "Some of Agile Events are defined and followed yet not regular"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q2",
+          "title": "Agile Governed by?",
+          "isRequired": true,
+          "choices": [
+            "Governed by Scrum Master/ SPM / Team manager & Product owner collectively",
+            "Governed through Team Manager & Client Calls to Team regularly",
+            "Governed by Team manager",
+            "Self Organized by team under servant leadership key roles of Agile Framework",
+            "Self Organized team but  guided & mentored by all roles"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q3",
+          "title": "How well does your team understand Agile?",
+          "isRequired": true,
+          "choices": [
+            "Agile Certified leaders are present within teams for coaching / guidance with all of team members",
+            "Agile trainings are included in learning plan for non-trained as well as new members",
+            "Agile trainings are arranged frequently for team members",
+            "Limited team members are trained in agility with trainings",
+            "Very basic and limited knowledge within team"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q4",
+          "title": "What level of knowledge does your team have with Agile practices?",
+          "isRequired": true,
+          "choices": [
+            "Highly experienced and fully integrated",
+            "limited  experience and seeking guidance",
+            "Some experience but looking to improve",
+            "No experience with Agile practices",
+            "Unaware"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q5",
+          "title": "How does your team receive project requirements?",
+          "isRequired": true,
+          "choices": [
+            "Requirements created collaboratively with team and refined with business background and acceptance criteria",
+            "Requirements received in story format from features / epics along with business context",
+            "Requirements  received at Feature or Epic level with business context",
+            "Requirements received at high level in document format",
+            "Requirements received in emails / over a call"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "q6",
+          "title": "Does the product have a Product Owner/Business Requirement Manager?",
+          "isRequired": true,
+          "choices": [
+            "Product has a Dedicated Product Owner",
+            "Assigned Product owner acts on behalf of customer",
+            "Product Owner is part of Agile team",
+            "Part- time  Product Owner / Owners",
+            "No Product Owner"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q7",
+          "title": "Does the product have a Scrum Master?",
+          "isRequired": true,
+          "choices": [
+            "Assigned dedicated SM/SPM full time",
+            "Assigned dedicated SM",
+            "Assigned part time individual  (not yet SM / SPM )",
+            "Assigned team member as a SM as per ROTA",
+            "No Scrum Master/Service Process Manager"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q8",
+          "title": "How does your team build and prioritize user stories?",
+          "isRequired": true,
+          "choices": [
+            "All team members use user stories",
+            "Most work uses user stories",
+            "Half the efforts use user stories",
+            "Teams understand user stories Rarely followed",
+            "Never used"
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "q9",
+          "title": "How frequently does your team conduct team reviews and retrospectives?",
+          "isRequired": true,
+          "choices": [
+            "Teams attend reviews & Retrospectives and seek stakeholders involvement to find reviews valuable",
+            "Reviews occur regularly and teams attend them",
+            "Team not prepared to review stories or are resistant to comments andsuggestions",
+            "Rarely or infrequently happen",
+            "Never happen"
+          ]
+        }
+      ]
+    }
+  ],
+  "showProgressBar": "bottom",
+  "showQuestionNumbers": "on",
+  "completedHtml": "<h4>Thank you for completing the survey!</h4>"
+}
